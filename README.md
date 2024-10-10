@@ -7,4 +7,4 @@ Follow the installation steps in the README to set up and run Atmos globally.
 
 ## Usage
 ```bash
-weather -c "Toronto"
+atmos -c "Toronto"
