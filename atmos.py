@@ -53,5 +53,7 @@ def main():
     else:
         print(Fore.RED + "Could not retrieve weather data. Please check the city name and try again." + Style.RESET_ALL)
 
+# This block ensures that the main() function is only called when the script is run directly,
+# and not when it is imported as a module in another script.
 if __name__ == "__main__":
     main()
